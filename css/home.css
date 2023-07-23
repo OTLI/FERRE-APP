@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu a{
+    display: block !important;
+    text-decoration: none !important;
+    color: white !important;
+    padding: 1rem 2rem !important;
+}
+
+.menu h1{
+    display: block !important;
+    margin-right: 2.5rem !important;
+    margin-left: 2rem !important;
+    color: aliceblue; 
+}
+
+.menu{
+    display: flex !important;
+    align-items: center !important;
+    background-color: rgb(155, 26, 26) !important;
+}
+
+.menu ul{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.menu ul li{
+    list-style-type: none !important;
+    margin-right: 3rem !important;
+
+    color: white !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.menu ul li:hover{
+    background-color: rgba(228, 228, 228, 0.274) !important;
+    cursor: pointer !important;
+}
